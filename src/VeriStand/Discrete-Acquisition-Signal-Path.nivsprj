@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="32676D5005B33E355DA71006ADA115EE46B8BD59FE19B94D3F2FB6B0E9CF2BB39FCB6F253F663DDF830D3B1639D202250A9C4DAE0DDC5B8DD2255221F96C6914" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.0.0.50070" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.0.0.50070" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="9.0.0.49152" Version="9.0.0.49152" />
+		<ApplicationVersionInfo Build="8.5.0.50070" Name="VeriStand" Version="9.0.0.50070" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="77617fd476534baa82507efd134dbe8c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Discrete-Acquisition-Signal-Path.nivscf" StoragePath="Discrete-Acquisition-Signal-Path.nivscf" />
+			<SourceFileReference Id="56aa1e512b614a9996e3fc9c28e5b901" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Discrete-Acquisition-Signal-Path.nivsscr" StoragePath="Discrete-Acquisition-Signal-Path.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="6ebc5cc55f074ee88b82d544a3586d29" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Discrete-Acquisition-Signal-Path.nivsscreen" StoragePath="Discrete-Acquisition-Signal-Path.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="ec158c3f80624569b9575266ebfdd27f" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Discrete-Acquisition-Signal-Path.nivsproj" StoragePath="Discrete-Acquisition-Signal-Path.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="107e6344406942fcb2b07d6afa20bde4" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Discrete-Acquisition-Signal-Path.nivssdf" StoragePath="Discrete-Acquisition-Signal-Path.nivssdf" />
+			<EmbeddedDefinitionReference Id="6f4d0d4f1a134b1f81a146a48c782d1d" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Discrete-Acquisition-Signal-Path.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
