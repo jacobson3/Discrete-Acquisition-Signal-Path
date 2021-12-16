@@ -11,7 +11,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Discrete-Acquisition-Signal-Path.vi" Type="VI" URL="../Discrete-Acquisition-Signal-Path.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="nislscslSession.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
+				<Item Name="SLSC Switch.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLSC_Switch/SLSC Switch.lvlib"/>
+				<Item Name="SLSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLSC/SLSC.lvlib"/>
+			</Item>
+			<Item Name="nislsclvapi.dll" Type="Document" URL="nislsclvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
